@@ -28,7 +28,7 @@ class Car extends Vehicle { //child class
 
 void main() {
   //create an instance/object of the Car class
-  Car myCar = Car("Toyota", "corola", 2024);
+  Car myCar = new Car("Toyota", "corola", 2024);
 
   //Access and display Information using methods from both Vehicle and Car classes
   myCar.displayInfo();
